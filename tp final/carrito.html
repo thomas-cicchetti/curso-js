@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Multimedia/logoshortcut.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Linda Creaciones - Productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="keywords" content="regaleria, stickers, diseño grafico, souvenirs, creaciones, Agendas, Calendarios, papeleria, edicion">
+    <meta name="description" content="Preparaciones de diseño grafico e impresiones para cumpleaños, bautismos, eventos o para uso propio">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../index.html">
+                <img id="logo" src="./Multimedia/Logo.png" alt="logo">
+            </a>
+        </div>
+        <div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <svg id="close" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#f1ceda}</style><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg>
+                <svg id="hamb" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#f1ceda}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></label>
+            <nav class="navbar">
+                <a href="" class="nav-link">Inicio</a>
+                <a href="./index.html" class="nav-link">Productos</a>
+                <a href="" class="nav-link">Pedidos</a>
+                <a href="" class="nav-link">Nosotros</a>
+                <a href="" class="nav-link">Contacto</a>
+                <a href="./carrito.html" id="test2" class="nav-link"><img src="./Ico/Sin título-1.png" alt="carrito" width="30px" height="30px"></a>
+                <a href="./carrito.html" id="test" class="nav-link"><img src="./Ico/carrito2.png" alt="carrito" width="30px" height="30px"></a>
+            </nav>
+        </div>
+    </header>
+
+    <h2>Carrito de compras</h2>
+    <div class="carrito-info" id="carritoVacio">
+        <h3 class="title-carrito">Tu carrito esta vacio</h3>
+        <p>Para agregar articulos haz  <a href="./index.html"> click aqui</a></p>
+        <div class="image-carrito-empty">
+            <img  src="./Ico/Carrito-Vacio-Farmaskin.png" alt="imagen-carrito-vacio" width="200px" height="200px" >
+        </div>
+    </div>
+    
+    <div class="cont-infocarrito">
+        <div id="infoCarrito">
+
+        </div>
+        <div id="img-carrito">
+            <h4>Finaliza tu pedido</h4>
+            <p class="textform">Datos personales</p>
+            <input class="inputs" type="text" name="Nombre"  placeholder="Nombre">
+            <input class="inputs" type="text" name="Apellido"  placeholder="Apellido"><br>
+            <input class="inputs" type="email" name="Correo"  placeholder="Correo">
+            <input class="inputs" type="text" name="Direccion"  placeholder="Dirección de envío"><br>
+            <p class="textform">Metodo de pago</p>
+            <select class="inputs" name="PayMethod" id="metodo">
+                <option value="MP">Mercado Pago</option>
+                <option value="TB">Transferencia Bancaria</option>
+                <option value="EF">Efectivo en punto de encuentro</option>
+            </select><br>
+            <input class="inputs" id="enviar" type="submit" name="enviar" value="Enviar pedido" >
+            
+        </div>
+    </div>
+
+    
+
+    <div>
+        <a class="instagram" href="https://www.instagram.com/linda.creacioness/">
+            <div>
+                <img class="instagram-container" src="./Ico/igpng.png" alt="image" width="50px" height="50px">
+            </div>
+            <div class="instagram-container">
+                Seguinos en instagram
+            </div>
+        </a>
+    </div>
+    <footer>
+        <div class="flex-foot text-foot testeo">
+            <section>
+                <div class="logo-footer">
+                    <a href="../index.html">
+                        <img src="./Multimedia/logo-footer.png" alt="logo" width="200px">
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h4 class="redes-center footer-title">
+                        Redes
+                    </h4>
+                </div>
+                <div class="flex-icon-foot incon-distance"> 
+                    <a href="https://wa.me/5491124762913"></i></i><i class="fa-brands fa-whatsapp" style="color: #f1ceda;"></i></a>
+                    <a href="https://www.instagram.com/linda.creacioness/"><i class="fa-brands fa-instagram" style="color: #f1ceda;"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100082868035777"><i class="fa-brands fa-facebook" style="color: #f1ceda;"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100082868035777"><i class="fa-brands fa-facebook-messenger" style="color: #f1ceda;"></i></i></a>
+                    <a href="creacioness.linda@gmail.com"><i class="fa-solid fa-envelope" style="color: #f1ceda"></i></a>
+                </div>
+            </section>
+            <section>
+                <h4 class="footer-title">
+                    Preguntas frecuentes
+                </h4>
+                <a class="color text-hov" href="/Pages/pedidos.html">Metodos de pago</a>
+                <a class="color text-hov" href="/Pages/pedidos.html">Envios</a>
+                <a class="color text-hov" href="/Pages/pedidos.html">Tiempos de entrega</a>
+                <a class="color text-hov" href="/Pages/pedidos.html">¿Como realizo un pedido?</a>
+            </section>
+        </div>
+        <p class="derechos">
+            © 2023 Linda Creaciones
+        </p>
+    </footer>
+    <a class="waico" href="https://wa.me/5491124762913"><img src="./Ico/wa.png" alt="whatsapp" height="50px" width="50px"></a>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./carrito.js"></script>
+</html>
